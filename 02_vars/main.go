@@ -14,9 +14,11 @@ func main() {
 	// float32 float64
 	// complex64 complex128
 
+	type any struct{}
+
 	// Using var
-	// var name = "Brad"
-	var age int32 = 37
+	var name = "Bala"
+	var age int32 = 20
 	const isCool = true
 	var size float32 = 2.3
 
@@ -24,8 +26,8 @@ func main() {
 	// name := "Brad"
 	// email := "brad@gmail.com"
 
-	name, email := "Brad", "brad@gmail.com"
+	username, email, password := "Brad", "brad@gmail.com", "secret"
 
-	fmt.Println(name, age, isCool, email)
+	fmt.Println(name, age, isCool, email, username, password)
 	fmt.Printf("%T\n", size)
 }
