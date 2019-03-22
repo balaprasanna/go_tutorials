@@ -53,8 +53,9 @@ func Get(url string) string {
 func GetJSON(url string) ChartResponse {
 	dataBytes := get(url)
 
-	// fmt.Println(string(dataBytes))
-	data := ChartResponse{}
+	// data := ChartResponse{}
+	var data ChartResponse
+
 	err := json.Unmarshal(dataBytes, &data)
 	if err != nil {
 		log.Fatalln(err)

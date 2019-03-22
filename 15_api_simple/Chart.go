@@ -5,9 +5,7 @@ type Maintainer struct {
 	Name  string
 	Email string
 }
-type Source struct {
-	Self string
-}
+
 type Repo struct {
 	Name string
 	URL  string
@@ -19,7 +17,7 @@ type Attribute struct {
 	Home        string
 	keywords    []string
 	Maintainers []Maintainer
-	Sources     []Source
+	Sources     []string
 	Icon        string
 }
 
@@ -35,10 +33,10 @@ type Records struct {
 }
 
 type Meta struct {
-	totalPages int
+	TotalPages int
 }
 
 type ChartResponse struct {
-	data []Records
-	meta Meta `json:"meta"`
+	Data []Records
+	Meta Meta `json:"meta"`
 }
