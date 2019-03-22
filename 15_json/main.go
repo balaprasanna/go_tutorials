@@ -26,6 +26,7 @@ func main() {
 		log.Fatalln(err1)
 	}
 
-	fmt.Println(v)
-
+	for _, name := range v.Names {
+		fmt.Printf("Name = %s\n", name)
+	}
 }
