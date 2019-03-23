@@ -1,4 +1,7 @@
-## Welcome to golang talk @ NUS ISS Stackup
+## Welcome to golang talk @ NUS ISS Stackup studio
+`Sat Mar 23 12:33:53 +08 2019`
+
+#### Topics: 
 
 - [01_hello](./01_hello)
 - [02_vars](./02_vars)
