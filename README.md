@@ -1,6 +1,6 @@
 ## Welcome to golang talk @ NUS ISS Stackup
 
-- ![01_hello](./01_hello)
+- [01_hello](./01_hello)
 - 02_vars
 - 03_packages
 - 04_functions
